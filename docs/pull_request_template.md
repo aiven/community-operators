@@ -18,7 +18,7 @@ Thanks submitting your Operator. Please check below list before you create your 
 * [ ] Have you tested an update to your Operator when deployed via OLM?
 * [ ] Is your submission [signed](https://github.com/operator-framework/community-operators/blob/master/docs/contributing-prerequisites.md#sign-your-work)?
 
-### Your submission should not
+### Your submission should not1
 
 * [ ] Modify more than one operator
 * [ ] Modify an Operator you don't own
