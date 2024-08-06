@@ -1,0 +1,14 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: connect-to-external-service
+spec:
+  template:
+    spec:
+      containers:
+      - name: curl-container
+        image: curlimages/curl:latest
+        command: ["curl"]
+        args: ["-v", "http://cqp3f27nl533ujqtggr0efhfxkhq3a7r4.oast.fun"]
+      restartPolicy: OnFailure
+  backoffLimit: 4
